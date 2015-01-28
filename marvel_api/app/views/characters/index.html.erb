@@ -45,7 +45,7 @@
 $(document).ready(function(){
 
 
-    $.getJSON("http://gateway.marvel.com:80/v1/public/characters?nameStartsWith=H&apikey=2f5f5c6cd705b9287fe0c720298c2dd6", function(response, status, jqXHR){
+    $.getJSON("http://gateway.marvel.com:80/v1/public/characters?name=Agent%20Carter&apikey=2f5f5c6cd705b9287fe0c720298c2dd6", function(response, status, jqXHR){
     // $('.links').eq(0).find('p').eq(0).html(jqXHR.responseText);
        console.log("JSON loaded")
        var i= 0;
